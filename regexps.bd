@@ -1,0 +1,6 @@
+comment		"^#.*"
+timestamp	"(\s+)(\d+\.\d+)(:)"
+sched_msg	"\s+m\s+"
+rais		".*rais.*"
+busy_queues	"dispatch requests: (\d+) busy queues"
+seek_mean	"mean=(\d+)"

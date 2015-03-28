@@ -1,0 +1,6 @@
+and		assert\s+\"(.+?)\"\s+and\s+\"(.+?)\"$
+and_not		assert\s+\"(.+?)\"\s+not\s+match\s+\"(.+?)\"$
+from_to		assert\s+from\s+\"(.+?)\"\s+to\s+\"(.+?)\"\s+(\S+?)$
+unique_from_to	assert\s+unique\s+\"(.+?)\"\s+from\s+\"(.+?)\"\s+to\s+\"(.+?)\"\s+(\S+?)$
+between		assert\s+found\s+\"(.+?)\"\s+between\s+\"(.+?)\"\s+and\s+\"(.+?)\"$
+after		assert\s+always\s+\"(.+?)\"\s+after\s+\"(.+?)\"$

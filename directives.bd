@@ -1,0 +1,6 @@
+#assert "bfq3382" not match "7500"
+#assert "schedule" and "insert"
+#assert from "dispatched one request" to "completed" 0.001
+#assert unique "bfq(\d+)" from "dispatched one request" to "completed" 0.001
+assert found "add_rq_rb" between "dispatched one request" and "completed"
+assert always "completed" after "dispatched one request"
