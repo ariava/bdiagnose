@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 # Main file for bdiagnose v0.01
 
 from BFilteredTrace import *
